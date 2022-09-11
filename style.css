@@ -109,13 +109,12 @@ body{
 .menu-text-style{
     margin-top: 10px;
     font-family: var(--main-font);
-    font-size: 1.8rem;
     font-weight: var(--font-weight-heading);
     transform: scale(.8,.9);
     display: none;
     align-items: center;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.4rem;
     color: var(--menu-font);
     margin-right: 1rem;
 }
@@ -141,6 +140,9 @@ body{
 }
 .main-video{
     width: 100%;
+}
+.hungry-text{
+
 }
 .third-main{
     width: 100%;
