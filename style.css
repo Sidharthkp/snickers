@@ -273,6 +273,17 @@ body{
 }
 
 @media (max-width: 700px){
+    .main-video-hungry{
+        margin-top: 15%
+    }
+    .main-video-para{
+        margin-top: 20%;
+        margin-left: -1%;
+    }
+    .button-class-main{
+        margin-top: 45%;
+        margin-left: 5%;
+    }
     .button-lineup{
         display: flex;
         justify-content: center;
