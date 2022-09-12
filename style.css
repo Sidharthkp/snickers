@@ -193,15 +193,18 @@ body{
     text-transform: uppercase;
 }
 .third-main{
+    display: flex;
+    align-items: center;
     margin-top: -5%;
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     background-color: #6F2F79;
 }
 .third-main-section{
-    width: 50%;
+    width: 45%;
     position: absolute;
     display: flex;
+    margin-top: -10%;
     margin-left: 50%;
     flex-direction: column;
 }
@@ -226,7 +229,7 @@ body{
     justify-content: center;
 }
 .moving-div-limit{
-    margin-top: 400px;
+    margin-top: 50%;
     margin-left: 50px;
     display: flex;
     position: relative;
@@ -345,4 +348,10 @@ body{
         width: 85px;
         height: 35px;
     }
+    /* .image-main-div-anim{
+        margin-top: -30%;
+    }
+    .third-main-section{
+        margin-top: 25%;
+    } */
 }
