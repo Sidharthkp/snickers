@@ -74,7 +74,7 @@ body{
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {color: #210082; font-weight: 600;}
+  .dropdown-content a:hover {font-weight: 600;}
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
@@ -141,8 +141,53 @@ body{
 .main-video{
     width: 100%;
 }
+.main-video-hungry{
+    display: flex;
+    position: absolute;
+    margin-top: 24%;
+}
 .hungry-text{
-
+    color: #f1f1f1;
+    margin-left: 20px;
+    font-size: .9rem;
+    font-family: var(--main-font);
+    font-weight: var(--font-weight-heading);
+    text-transform: uppercase;
+}
+.main-video-para{
+    margin-top: 30%;
+    display: flex;
+    position: absolute;
+}
+.main-video-text{
+    letter-spacing: 0.048rem;
+    margin-left: -18%;
+    transform: scale(.6,1);
+    font-size: 3rem;
+    font-family: var(--main-font);
+    font-weight: var(--font-weight-heading);
+    text-transform: uppercase;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+.button-class-main{
+    margin-top: 40%;
+    display: flex;
+    position: absolute;
+    margin-left: 2%;
+}
+.button-lineup{
+    background-color: #210082;
+    border: none;
+    width: 145px;
+    height: 45px;
+}
+.button-text-main{
+    color: #f1f1f1;
+    font-size: .8rem;
+    font-family: var(--main-font);
+    font-weight: var(--font-weight-heading);
+    text-transform: uppercase;
 }
 .third-main{
     width: 100%;
@@ -207,9 +252,40 @@ body{
         width: 100%;
         top: 16rem;
     }
+    .button-class-main{
+        margin-top: 48%;
+    }
+    .button-lineup{
+        width: auto;
+        height:40px;
+    }
+}
+@media(max-width: 900px){
+    .button-class-main{
+        margin-top: 50%;
+    }
+    .button-lineup{
+        height:30px;
+    }
+    .button-text-main{
+        font-size: .5rem;
+    }
 }
 
 @media (max-width: 700px){
+    .button-lineup{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90px;
+        height:25px;
+    }
+    .button-text-main{
+        font-size: .5rem;
+    }
+    .main-video-text{
+        font-size: 2rem;
+    }
     .desktop{
         display: none;
     }
