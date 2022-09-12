@@ -6,110 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SNICKERS® Official Website | Chocolate Bars, Recipes and More</title>
     <link rel="icon" href="images/snickers-favicon-3.png">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <script src="https://kit.fontawesome.com/8b74d3112d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <div class="header-style">
-            <div class="logo-div">
-                <img class="logo-style" src="images/SNK_3D_LOGO.webp">
-            </div>
-            <div class="hamburger">
-                <a href="#" class="toggle-button">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </a>
-                <h1 class="menu-text-style">Menu</h1>
-            </div>   
-            <div class="menu-style">
-                <div class="dropdown">
-                    <button class="dropbtn">our products<i class="fa fa-angle-down"></i></button>
-                    <div class="dropdown-content">
-                      <a href="#">See All</a>
-                      <a href="#">Ice Cream</a>
-                      <a href="#">Brownie</a>
-                    </div>
-                  </div>
-                  <div class="dropdown">
-                    <button class="dropbtn">hungry?<i class="fa fa-angle-down"></i></button>
-                    <div class="dropdown-content">
-                      <a href="#">Ice Cream</a>
-                      <a href="#">Recipes</a>
-                    </div>
-                  </div>
-                  <div class="dropdown">
-                    <button class="dropbtn">nfl<i class="fa fa-angle-down"></i></button>
-                    <div class="dropdown-content">
-                      <a href="#">NFL</a>
-                      <a href="#">Rookie Mistake</a>
-                    </div>
-                  </div>
-                  <div class="dropdown">
-                    <button class="dropbtn">about</button>
-                  </div>
-                </div>
-                <div class="right-menu">
-                    <a href="#">where to buy</a>
-                    <a href="#">contact & help</a>
-                    <a href="#"><i class="fa fa-search"></i>search</a>
-                </div>
-            </div>
+    <header class="header-style">
+        <img class="main-logo" src="images/SNK_3D_LOGO.webp" alt="image/webp">
+        <div class="main-menu">
+            <ul>
+                <li>our products<i class="fa fa-angle-down arrow-style"></i></li>
+                <li>hungry?<i class="fa fa-angle-down arrow-style"></i></li>
+                <li>nfl<i class="fa fa-angle-down arrow-style"></i></li>
+                <li>about</li>
+            </ul>
         </div>
+        <!-- <div>
+            <ul>
+                <li>where to buy</li>
+                <li>contact & help</li>
+                <li><i class="fa fa-search"></i>search</li>
+            </ul>
+        </div> -->
+        <!-- <div>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown link
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div> -->
     </header>
-    <main>
-        <div class="main-image">
-            <a href="#" class="desktop">
-                <img class="main-image-file" src="images/Desktop.webp">
-            </a>
-            <a href="#" class="ipad">
-                <img class="main-image-file" src="images/ipad.webp">
-            </a>
-            <a href="#" class="iphone">
-                <img class="main-image-file" src="images/iphone.jpg">
-            </a>
-        </div>
-        <div class="main-video">
-            <div class="text-section1">
-                <div class="main-video-hungry">
-                    <h1 class="hungry-text">hungry?</h1>
-                </div>
-                <div class="main-video-para">
-                    <a href="#" class="main-video-text">may be you just need a snickers.</a>
-                </div>
-                <div class="button-class-main">
-                    <button class="button-lineup"><span class="button-text-main">see the lineup.</span></button>
-                </div>
-            </div>
-            <video src="videos/SN-home-hero-video.mp4" autoplay loop muted style="width: 100%;"></video>
-        </div>
-        <div class="third-main">
-            <div class="third-main-sub">
-                <div class="image-main-div-anim">
-                    <div class="moving-div-limit">
-                        <div class="moving-div">
-                            <img src="images/name_04ee0ebc2c608d96a4bd2ba335661b0fd2610cd3.avif" class="img-animation-picture">
-                        </div>
-                    </div>
-                </div>
-                <div class="third-main-section">
-                    <div class="main-video-hungry">
-                        <h1 class="hungry-text">Hello</h1>
-                    </div>
-                    <div class="main-video-para">
-                        <a href="#" class="main-video-text">I'm snickers brownie. have we met?</a>
-                    </div>
-                    <div class="button-class-main">
-                        <button class="button-lineup"><span class="button-text-main">let's go.</span></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
+    <main></main>
     <footer></footer>
     <script src="script.js"></script>
     <!-- JavaScript Bundle with Popper -->
