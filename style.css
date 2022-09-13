@@ -74,6 +74,14 @@ body{
 .main-iphone{
     display: none;
 }
+.video-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.video-style{
+
+}
 @media(max-width: 900px){
     .main-menu{
         margin-left: -40px;
