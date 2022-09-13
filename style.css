@@ -126,6 +126,21 @@ body{
 .text-button-transition:hover{  
     color: black;
 }
+.violet-part{
+    background-color: #6F2F79; 
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.animation-image{
+    width: 100%; 
+    height: 100%; 
+    position: relative; 
+    justify-content: center;
+    display: flex; 
+    align-items: center;
+}
 .object {
     animation: MoveUpDown 5s linear infinite;
     position: absolute;
@@ -133,7 +148,7 @@ body{
     bottom: 0;
     width: 360px;
     margin-left: -80px;
-  }
+}
   
   @keyframes MoveUpDown {
     0%, 100% {
@@ -240,5 +255,21 @@ body{
     .text-video-main{
         margin-top: 300px;
         margin-left: -100px;
+    }
+    .violet-part{
+        height: 60vh;
+    }
+    .text-violet{
+        margin-top: 200px;
+        width: 50%;
+    }
+    .link-text{
+        font-size: 18px;
+    }
+    .object{
+        margin-left: 0px;
+    }
+    .animation-image{
+        margin-top: 100px;
     }
 }
