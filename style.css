@@ -74,13 +74,23 @@ body{
 .main-iphone{
     display: none;
 }
-.video-section{
+.text-video{
     display: flex;
-    justify-content: center;
-    width: 100%;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
 }
-.video-style{
-
+.
+@media(min-width: 760px){
+    .video-section{
+        width: 100%;
+        height: 90vh;
+        overflow: hidden;
+    }
+    .video-style{
+        width: 100%;
+    }
 }
 @media(max-width: 900px){
     .main-menu{
@@ -89,10 +99,17 @@ body{
 }
 @media(max-width: 850px){
     .main-menu2{
-        margin-left: -40px;
+        margin-left: -50px;
     }
 }
 @media(max-width: 760px){
+    .video-section{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
     .main-desktop{
         display: none;
     }
