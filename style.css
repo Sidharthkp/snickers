@@ -14,6 +14,7 @@ body{
 }
 .main-menu{
     display: flex;
+    align-items: center;
 }
 .main-menu ul li{
     cursor: pointer;
@@ -22,11 +23,89 @@ body{
     list-style-type: none;
     text-transform: uppercase;
     font-weight: 700;
+    font-size: .8rem;
+    margin-left: 20px;
+}
+.main-menu2{
+    margin-left: 40px;   
+}
+.main-menu2 ul li{
+    cursor: pointer;
+    color: #FFFFFF;
+    display: inline-block;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 10px;
+    font-size: .6rem;
+}
+.main-menu2 ul li i{
     font-size: .9rem;
-    transform: scale(.7,.9);
+    margin-right: 5px;
 }
 .arrow-style{
     color: #E5AC49;
+}
+.navigation-class{
+    width: 100%;
+    display: none;
+    justify-content: end;
+}
+.button-text-header{
+    color: #E5AC49;
+    text-decoration: none;
+    filter: invert(1);
+    font-weight: 700;
+    margin-left: 10px;
+    font-size: .6rem;
+    margin-left: 20px;
+}
+.main-image{
+    display: flex;
+    width: 100%;
+}
+.main-desktop{
+    display: flex;
+    width: 100%;
+}
+.main-ipad{
+    display: none;
+}
+.main-iphone{
+    display: none;
+}
+@media(max-width: 900px){
+    .main-menu{
+        margin-left: -40px;
+    }
+}
+@media(max-width: 850px){
+    .main-menu2{
+        margin-left: -40px;
+    }
+}
+@media(max-width: 760px){
+    .main-desktop{
+        display: none;
+    }
+    .main-ipad{
+        display: flex;
+        width: 100%;
+    }
+    .main-iphone{
+        display: none;
+    }
+    .main-menu{
+        display: none;
+    }
+    .main-menu2{
+        display: none;
+    }
+    .navigation-class{
+        display: flex;
+        margin-right: 10px;
+        align-items: center;
+    }
 }
 @media(max-width: 682px){
     .header-style{
@@ -35,11 +114,21 @@ body{
     }
     .main-logo{
         width: 80px;
-        height: 36px;
+        height:  36px;
         margin: .5px;
     }
 }
 @media(max-width: 510px){
+    .main-desktop{
+        display: none;
+    }
+    .main-ipad{
+        display: none;
+    }
+    .main-iphone{
+        display: flex;
+        width: 100%;
+    }
     .header-style{
         padding: 12px;
         height: 52px;
